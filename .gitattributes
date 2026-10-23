@@ -1,0 +1,8 @@
+# Preserve the archived CSV bytes on every platform.
+*.csv -text
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

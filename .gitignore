@@ -1,0 +1,20 @@
+# Publish only the reviewed release files.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/manifest.json
+!/dataset_clean.csv
+!/clean_dataset.py
+!/prepare_data.py
+!/train_hybrid.py
+!/train_transformers.py
+!/data/
+/data/*
+!/data/train.csv
+!/data/val.csv
+!/data/test.csv
+
+# User preference: these filenames must never be uploaded.
+*[cC][oO][dD][eE][xX]*

@@ -1,0 +1,60 @@
+{
+  "snapshot": "original_conference_experiment_seed_42",
+  "paper_title": "Hybrid Machine Learning versus Fine-Tuned Transformers for Indonesian Milk Tea Review Sentiment Analysis: A Performance and Computational Cost Benchmark",
+  "release_date": "2026-10-23",
+  "data_origin": "Historical files archived on 2026-06-12; not the 2026-10-23 collection.",
+  "columns": [
+    "text_clean",
+    "label",
+    "label_id"
+  ],
+  "labels": {
+    "0": "negatif",
+    "1": "positif"
+  },
+  "split": {
+    "random_state": 42,
+    "original_train_rows": 4050,
+    "synthetic_negative_train_rows": 2706,
+    "validation_and_test_augmented": false
+  },
+  "files": {
+    "dataset_clean.csv": {
+      "rows": 5063,
+      "label_counts": {
+        "negatif": 840,
+        "positif": 4223
+      },
+      "sha256": "8ed9a4f9927942f4ed6a129a278915736f4fd963317bc765867964b299f9cb6b",
+      "transformation": "Projection to text_clean,label,label_id only; row order, cleaned text and labels unchanged.",
+      "historical_source_sha256": "dc2c501a6f64761a628eae0a08ded91ce8715f6908f70702cd175af8f5e1c657"
+    },
+    "data/train.csv": {
+      "rows": 6756,
+      "label_counts": {
+        "negatif": 3378,
+        "positif": 3378
+      },
+      "sha256": "8fe6f11b62d33a45d503c48537ffeb8597b256ac9b5067d4fe72036ebd69c15c",
+      "transformation": "Byte-identical historical split."
+    },
+    "data/val.csv": {
+      "rows": 506,
+      "label_counts": {
+        "negatif": 84,
+        "positif": 422
+      },
+      "sha256": "e6ef5049c5ef57ba6fbff6ebfd0752ddc7b090487626f3065456bdae530ba4cd",
+      "transformation": "Byte-identical historical split."
+    },
+    "data/test.csv": {
+      "rows": 507,
+      "label_counts": {
+        "negatif": 84,
+        "positif": 423
+      },
+      "sha256": "b556b4d034dceb2bac5f02ad9e3ec0f609363fb332ac0cf2bf93f7da54b5bae1",
+      "transformation": "Byte-identical historical split."
+    }
+  }
+}

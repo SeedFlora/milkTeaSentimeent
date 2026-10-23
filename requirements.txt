@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+joblib
+gensim
+torch
+transformers
+sentencepiece
+protobuf
