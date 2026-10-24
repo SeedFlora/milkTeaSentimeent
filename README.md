@@ -1,5 +1,7 @@
 # milkTeaSentimeent
 
+The retained non-text artifacts for the revised five-split benchmark are available in [revision-20261024](revision-20261024/README.md). That folder includes its own scope, verification code, privacy exclusions and known limitations. The historical baseline below remains separate.
+
 Historical dataset and training code for the conference paper:
 
 **Hybrid Machine Learning versus Fine-Tuned Transformers for Indonesian Milk Tea Review Sentiment Analysis: A Performance and Computational Cost Benchmark**

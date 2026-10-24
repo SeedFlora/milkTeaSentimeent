@@ -1,0 +1,39 @@
+{
+  "paper_id": "1571319789",
+  "release_date": "2026-10-24",
+  "split_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "models": [
+    "DistilBERT-Indo",
+    "FastText + LogReg",
+    "FastText + RandomForest",
+    "IndoBERT-IndoLEM",
+    "IndoBERT-lite",
+    "IndoBERT-p1",
+    "IndoBERT-p2",
+    "IndoBERTweet",
+    "IndoRoBERTa",
+    "TF-IDF + LogReg",
+    "TF-IDF + SVM",
+    "Word2Vec + LogReg",
+    "Word2Vec + RandomForest",
+    "XLM-RoBERTa",
+    "mBERT",
+    "mDistilBERT"
+  ],
+  "main_runs": 80,
+  "released_prediction_runs": 30,
+  "label_id": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "positive_score": "Historical model score for the positive class; may be an SVM decision score, not a calibrated probability.",
+  "uncertainty": "Sample SD across overlapping repeated splits/training seeds, not an independent-replication confidence interval.",
+  "tokenizer_correction": "Main IndoBERT-lite aggregate records use the corrected WordPiece tokenizer runs; no IndoBERT-lite item predictions were retained in this local archive.",
+  "privacy": "This revision folder excludes review texts, source row IDs, reviewer identities, profile URLs, listing IDs, locations, collection telemetry, raw exports, model weights, and credentials."
+}

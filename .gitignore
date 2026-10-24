@@ -16,5 +16,9 @@
 !/data/val.csv
 !/data/test.csv
 
+# Reviewed non-text revision artifacts; raw source files remain excluded.
+!/revision-20261024/
+!/revision-20261024/**
+
 # User preference: these filenames must never be uploaded.
 *[cC][oO][dD][eE][xX]*

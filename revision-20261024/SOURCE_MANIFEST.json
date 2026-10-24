@@ -1,0 +1,614 @@
+[
+  {
+    "released_file": "predictions/FastText_LogReg__split42.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed42_full_fasttext_logreg_fixed.csv",
+    "source_sha256": "c87828fdf783614a8f92003ae783731e659d906943ea256bf309099956890994",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_RandomForest__split42.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed42_full_fasttext_randomforest_fixed.csv",
+    "source_sha256": "5d5d0960daf97261d29b881ad5f42f3c970a3749fe64d9f0aafdb0ad120e13e1",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_LogReg__split42.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed42_full_tfidf_logreg_fixed.csv",
+    "source_sha256": "2b45350133ab182afa71623e297723119c7f6ebd06bf001da3e16493cff4dbe7",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_SVM__split42.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed42_full_tfidf_svm_fixed.csv",
+    "source_sha256": "fe6005c87c302d6e38c04349bd4b923ab3eb80041f35398cb5fd2a7fd56c9d2e",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_LogReg__split42.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed42_full_word2vec_logreg_fixed.csv",
+    "source_sha256": "b8af19f8f94fef382a154cb14979231853c39beac6eed3f5cb11207ea21f423f",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_RandomForest__split42.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed42_full_word2vec_randomforest_fixed.csv",
+    "source_sha256": "6d642da9e93baaa65cdfdbb5a380a4fcdbba11d121094b331a772e2588ac3b8c",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_LogReg__split43.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed43_full_fasttext_logreg_fixed.csv",
+    "source_sha256": "c03b7343134e61607aed99bca97a82df714e2808a5c0d1ebba1f0cccded6bd0b",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_RandomForest__split43.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed43_full_fasttext_randomforest_fixed.csv",
+    "source_sha256": "737f54bff9f74bb4a8df32f9be4ccdb9653dc3f664a2dda21620436ac09bd654",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_LogReg__split43.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed43_full_tfidf_logreg_fixed.csv",
+    "source_sha256": "15dea75f30ed137c86993877e7f8ed8f33bee4c5f69c093d2f1209b5adafc9e5",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_SVM__split43.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed43_full_tfidf_svm_fixed.csv",
+    "source_sha256": "b6a5e762312aedca69c96070dbf45f9866e77d76a85fda1091eba1b1317cdad8",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_LogReg__split43.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed43_full_word2vec_logreg_fixed.csv",
+    "source_sha256": "a7aa0d8aa5380585810e3182250c8b90e7c9c32602eb05ac45f8d2b5eee71c0d",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_RandomForest__split43.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed43_full_word2vec_randomforest_fixed.csv",
+    "source_sha256": "5cb1ef983808cc968708b4a792a38377bf3b5c95ecb269279538259d542ba8c8",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_LogReg__split44.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed44_full_fasttext_logreg_fixed.csv",
+    "source_sha256": "2c76706a63b9091ca915fab9dc453c67dee21cae68f271275aef8e1b3421c7bd",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_RandomForest__split44.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed44_full_fasttext_randomforest_fixed.csv",
+    "source_sha256": "554c0be0c3ac5031df7f34727e0e5ed2c13c91d52139ac8eb19969f6cf345303",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_LogReg__split44.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed44_full_tfidf_logreg_fixed.csv",
+    "source_sha256": "a94cd08eab22403ae89b4b29b8fc168ec619d62b95061e7f027cb8604a2d1ac0",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_SVM__split44.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed44_full_tfidf_svm_fixed.csv",
+    "source_sha256": "54d240e61a8c08bf635b6e52b4168f28bebe1fe7c508cf3b3652f3831fc71368",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_LogReg__split44.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed44_full_word2vec_logreg_fixed.csv",
+    "source_sha256": "0a05692e527d93d8b934f4beeaeeecc8573acb866e46a2f366addf68bc137002",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_RandomForest__split44.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed44_full_word2vec_randomforest_fixed.csv",
+    "source_sha256": "fbc991e77fa46c2870ab4c970b29f0851305ece0a1e5b0b888a900fb6d1e704b",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_LogReg__split45.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed45_full_fasttext_logreg_fixed.csv",
+    "source_sha256": "015819784321643e79464fa6c7f057ef5ccad4c66bf8a28b31109a1231ab3b2f",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_RandomForest__split45.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed45_full_fasttext_randomforest_fixed.csv",
+    "source_sha256": "b1e92df438aed53ca97525a72391a42acbab7e049c732709e9bff8206f1e7f02",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_LogReg__split45.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed45_full_tfidf_logreg_fixed.csv",
+    "source_sha256": "9437ab14f5fa3eef8022a71c85778a3bfaa11379663c5cd21aae08081ac9d4ac",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_SVM__split45.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed45_full_tfidf_svm_fixed.csv",
+    "source_sha256": "bf4e3a396571800fc4b3fad121200c6de4befbbcdc8584439ed8cc3d47b2ac76",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_LogReg__split45.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed45_full_word2vec_logreg_fixed.csv",
+    "source_sha256": "fe88222c4e2545c3acb4eb655cbabbf0ad11097b61bc354b517d9a9de5a6c51b",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_RandomForest__split45.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed45_full_word2vec_randomforest_fixed.csv",
+    "source_sha256": "5238f8be98f15f5cc849bcfe8ca5604f7eba74396ef0c078e3a4420bfb5c390f",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_LogReg__split46.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed46_full_fasttext_logreg_fixed.csv",
+    "source_sha256": "0bdc118a4f2b2e77f13916ffea43312113eca44e8f29ddba1c8a56e849a0564b",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/FastText_RandomForest__split46.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed46_full_fasttext_randomforest_fixed.csv",
+    "source_sha256": "ba22191bf915e2d59dc684169c13df8b9b18ee6dff2b7363dbebac8936f58d22",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_LogReg__split46.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed46_full_tfidf_logreg_fixed.csv",
+    "source_sha256": "2460fd71b8d0e2e748875c115a1aebd218038612bbfa6a1ce3f9eb7c3537d96a",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/TF-IDF_SVM__split46.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed46_full_tfidf_svm_fixed.csv",
+    "source_sha256": "9c3b2b99626b0aedac539857256c6b940994fb9b21bf44be964f2f96ff592eba",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_LogReg__split46.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed46_full_word2vec_logreg_fixed.csv",
+    "source_sha256": "a2a60a9d748e8e96d8a08b3a8fe868383e09c72ad7946eb75a1eae4570dff7b8",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "predictions/Word2Vec_RandomForest__split46.csv",
+    "source_file": "revision_experiments/cpu/predictions/seed46_full_word2vec_randomforest_fixed.csv",
+    "source_sha256": "235dae71410b8ba1cd107c1b3db77b0f79ed7d78e97104f591744ec4d22d3d9f",
+    "source_rows": 507,
+    "source_columns_retained": [
+      "label_id",
+      "y_pred",
+      "score_raw"
+    ],
+    "removed": [
+      "text_clean",
+      "row_id",
+      "source_row_id",
+      "stars",
+      "score_type"
+    ],
+    "fresh_random_example_ids": true,
+    "source_order_shuffled": true
+  },
+  {
+    "released_file": "results/main_individual_runs.csv",
+    "source_file": "revision_experiments/final_delivery_20261007_v2/hasil_tambahan/corrected_tables/main_individual_runs.csv",
+    "source_sha256": "da58744bf61ad2aa5605a0a7f4f15dc10ee17e72408abecf60e349b1da21ae25",
+    "rows": 80,
+    "source_paths_removed": true
+  },
+  {
+    "released_file": "results/latency_pooled.csv",
+    "source_file": "revision_experiments/final_delivery_20261007_v2/hasil_tambahan/latency_v2/latency_pooled.csv",
+    "source_sha256": "970a0fad3668af8fbc57139022b93fd54f76049b13d6b9c47d75d827fc2eb352"
+  }
+]
